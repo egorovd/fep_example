@@ -1,0 +1,19 @@
+%%%-------------------------------------------------------------------
+%%% @author denis
+%%% @copyright (C) 2018, <COMPANY>
+%%% @doc
+%%%
+%%% @end
+%%% Created : 06. Июнь 2018 10:48
+%%%-------------------------------------------------------------------
+{application, fep_example, [
+  {description, "FEP Example"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {mod, {fep_example_app, []}},
+  {env, []}
+]}.
